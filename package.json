@@ -1,19 +1,25 @@
 {
-  "name": "medi_blockchain",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-router": "0.0.1",
-    "firebase": "^9.5.0",
-    "firebase-admin": "^10.0.0",
-    "nodemon": "^2.0.15"
-  }
+    "name": "medi_blockchain",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "nodemonConfig": {
+        "ignore": [
+            "*.json"
+        ]
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "crypto-js": "^4.1.1",
+        "express": "^4.17.1",
+        "express-router": "0.0.1",
+        "firebase": "^9.5.0",
+        "firebase-admin": "^10.0.0",
+        "nodemon": "^2.0.15"
+    }
 }
